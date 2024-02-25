@@ -3,7 +3,7 @@ package hw3JavaVariablesDeclared;
 public class AboutMeTest {
 
 	public static void main(String[] args) {
-		// 
+		// Test
 		AboutMe dewan = new AboutMe();
 		AboutMe syed = new AboutMe();
 		AboutMe alex = new AboutMe();
