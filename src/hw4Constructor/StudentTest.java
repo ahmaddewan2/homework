@@ -6,7 +6,7 @@ public class StudentTest {
 
 		Student student = new Student();
 
-		Student student1 = new Student();
+		Student student1 = new Student("dewan",5643,true,3.56f,'M');
 		Student student2 = new Student("Alexy", 4354, true, 2.78f, 'M');
 		Student student3 = new Student("kobi", 5647, true, 3.67f, 'M');
 		Student student4 = new Student("robi", 5643, true, 2.9f, 'M');
