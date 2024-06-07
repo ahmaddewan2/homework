@@ -1,18 +1,17 @@
 package oopExam;
 
-public interface Phone extends Pager,Wakitoki{
+public interface Phone extends Pager, Wakitoki {
 
-/*Interface is a Blueprint of Class. 
- * Interface cannot be instantiated and it cannot create object.
- * Contains only abstract methods.
- * Abstract method can not be implemented, can be defined  (declared) only
- * interface contains default and static method only which are non abstract(exception)
- * 
- */
+	/*
+	 * Interface is a Blueprint of Class. Interface cannot be instantiated and it
+	 * cannot create object. Contains only abstract methods. Abstract method can not
+	 * be implemented, can be defined (declared) only interface contains default and
+	 * static method only which are non abstract(exception)
+	 * 
+	 */
 
 //phone interface can not inherit regular class(landphone) and abstract class(satelitephone)
 //phone interface can inherit interface pager and wakitoki
-
 
 	void makeCall();
 

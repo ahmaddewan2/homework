@@ -2,7 +2,11 @@ package oopExam;
 
 
 
-public class Iphone1 {
+public class Iphone1  {
+	
+	/*
+	 * Iphone1 can not inherited by interface Phone, but inherited by abstract class AppleWatch
+	 */
 	
 	public void regularClassInfo() {
 		System.out.println("regular class-can be instantiated.have only non-abstract method");
